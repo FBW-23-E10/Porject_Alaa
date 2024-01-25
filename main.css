@@ -34,10 +34,10 @@ header {
   position: sticky;
   top: 0;
 }
-header nav li a{
-    text-decoration: none;
-    font-family: "Oswald";
-    color: black;
+header nav li a {
+  text-decoration: none;
+  font-family: "Oswald";
+  color: black;
 }
 .MainSec {
   display: flex;
@@ -105,7 +105,7 @@ header h4 {
     padding-left: 1rem;
     padding-right: 2rem;
     border-bottom: 2px solid black;
-   
+
     position: sticky;
     top: 0;
   }
@@ -195,30 +195,27 @@ h1 {
   margin: 0.5rem;
   text-align: center;
 }
-.Container div article{
+.Container div article {
   margin-left: 0.5rem;
   text-align: justify;
-  
 }
-.Container div article h4{
-    margin-bottom: 0.5rem;
-    text-align: justify;
-    
-  }
-.Container div article ol{
-    margin-left: 1.5rem;
-    font-size: small;
-    text-align: justify;
-    
-  }
-  .Container div article ol li ul{
-    display: block;
-    font-size: x-small;
-    margin-left: 0.5rem;
-    margin-bottom: 0.8rem;
-    text-align: justify;
-    list-style-type: none;
-  }
+.Container div article h4 {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+.Container div article ol {
+  margin-left: 1.5rem;
+  font-size: small;
+  text-align: justify;
+}
+.Container div article ol li ul {
+  display: block;
+  font-size: x-small;
+  margin-left: 0.5rem;
+  margin-bottom: 0.8rem;
+  text-align: justify;
+  list-style-type: none;
+}
 
 @media screen and (min-width: 600px) {
   .Container {
@@ -233,7 +230,7 @@ h1 {
     padding: 1rem 1.5rem;
     width: 100%;
   }
-  .Container div{
+  .Container div {
     width: 100%;
   }
 }
@@ -253,7 +250,7 @@ h1 {
   .Container div {
     width: 100%;
     overflow: hidden;
-    
+
     /* border: 1px solid black; */
   }
   #link01 {
