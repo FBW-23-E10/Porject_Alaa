@@ -38,6 +38,13 @@ header nav li a {
   text-decoration: none;
   font-family: "Oswald";
   color: black;
+
+}
+header nav li a:hover {
+  text-decoration: none;
+  font-family: "Oswald";
+  color: white;
+  
 }
 .MainSec {
   display: flex;
@@ -216,6 +223,20 @@ h1 {
   text-align: justify;
   list-style-type: none;
 }
+#link07{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#link07 article img{
+ 
+  max-width: 90%;
+  max-height: 90%;
+}
+main{
+  padding: 2rem;
+}
 
 @media screen and (min-width: 600px) {
   .Container {
@@ -233,6 +254,7 @@ h1 {
   .Container div {
     width: 100%;
   }
+  
 }
 
 @media screen and (min-width: 890px) {
@@ -254,37 +276,38 @@ h1 {
     /* border: 1px solid black; */
   }
   #link01 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 1/2;
   }
   #link02 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 2/3;
     background: #adadad;
   }
   #link03 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 3/4;
   }
   #link04 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 4/5;
     background: #adadad;
   }
   #link05 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 5/6;
   }
   #link06 {
-    grid-column: 1/5;
+    grid-column: 1/4;
     grid-row: 6/7;
     background: #adadad;
   }
   #link07 {
-    grid-column: 5/6;
+    grid-column: 4/6;
     grid-row: 1/7;
     background: #adadad;
   }
+  
 }
 .top {
   width: 2.5rem;
